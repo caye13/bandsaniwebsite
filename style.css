@@ -1,0 +1,155 @@
+h1 {
+  color: #000000;
+  font-size: 39px;
+}
+h2 {
+  font-size: 26px;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+
+}
+
+
+
+header {
+  background-color: #F0F8FF;
+  /* padding: 260px 0; */
+  background-image: url("../img/bandsani.jpeg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 140px 0 100px;
+
+}
+body {
+  color: #4a4a4a;
+  font-family: 'Oxygen', sans-serif;
+}
+div {
+
+}
+.btn-primary, .btn-primary:visited {
+  background-color: #cde3f8;
+  border-color: #b7d7f4;
+}
+.btn-primary:hover, .btn-primary:active {
+  background-color: #a1caf1;
+}
+
+.section {
+  padding: 60px 0 40px;
+}
+
+.streamNow-section{
+  background-color: #F7F9FC;
+  padding: 26px 0 26px;
+}
+
+.streamNow-section img {
+  margin: 21px 0 10px;
+  margin-left: 150px;
+  position: right;
+  height: 65px;
+  width: 65px;
+}
+
+.first-section {
+background-color: white;
+
+}
+
+.first-section h3 {
+  font-size: 16px;
+  background-color: #F7F9FC;
+  border-radius: 8px;
+  margin-top: 25px;
+  padding: 30px 55px;
+  margin-bottom: 8px;
+
+}
+
+.first-section img {
+  margin-bottom: 35px;
+}
+
+@media (min-width: 768px) {
+  .first-section img {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .first-section img {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 576px) {
+  .section {
+  padding: 100px 0;
+}
+  h1 {
+    font-size: 48px;
+  }
+  header {
+  padding: 200px 0;
+}
+}
+
+.second-section {
+  background-color: #FBFBFB;
+}
+
+.second-section p {
+  color: #9DA2A6;
+}
+
+.second-section img {
+  height: 75px;
+  margin: 25px 0 10px;
+  width: 75px;
+}
+
+.nav-item {
+  margin: 10px 16px;
+}
+.navbar-brand img {
+  height: 46px;
+  margin-right: 8px;
+  width: 46px;
+}
+third-section {
+  background-color: white;
+}
+
+.third-section img {
+  margin-top: 35px;
+}
+
+@media (min-width: 768px) {
+  .streamNow-section img {
+    margin-top: 0;
+  }
+  .third-section img {
+    margin-top: 0;
+  }
+}
+
+.fourth-section {
+  background-color: #F0F8FF;
+  background-image: url("../img/bandsani.jpeg");
+  background-repeat: repeat;
+  background-size: 192px 192px;
+}
+footer {
+  background-color: #cde3f8;
+  padding: 35px 0;
+}
+
+.footer-logo {
+  height: 21px;
+  margin-bottom: 3px;
+  width: 45px;
+}
