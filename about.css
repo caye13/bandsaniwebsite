@@ -62,23 +62,26 @@ footer {
 }
 
 .section {
-  padding: 39px 0 26px;
+  padding: 26px 0 13px;
 }
 
 .first-section {
   background: #EFFFE9;
 }
 
-.top-section {
-  background: ##FBFBFB;
-}
-
 .first-section p {
   margin-top: 26px;
 }
 
+.top-section {
+  background: #FBFBFB;
+  margin: 13px;
+}
+
 .lauren-about-section {
   background: #FBFBFB;
+  margin: 26px;
+  position: left;
 }
 
 .lauren-about-section h2 {
@@ -86,7 +89,10 @@ footer {
 }
 
 .devon-about-section {
-  background: #F7F9FC;
+  background: #FBFBFB;
+  margin: 26px;
+  position: right;
+  /* background: #F7F9FC; */
 }
 
 .devon-about-section h2 {
@@ -96,8 +102,8 @@ footer {
 .about-about-section {
   font-size: 16px;
   background-color: #CBECBE;
-  border-radius: 8px;
-  margin-top: 13px;
-  padding: 30px 55px;
+  border-radius: 13px;
+  margin-top: 8px;
+  padding: 8px 8px;
   margin-bottom: 8px;
 }
