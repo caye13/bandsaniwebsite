@@ -112,11 +112,23 @@ footer {
 }
 
 .elise-about-section {
+  background: #F7F9FC;
+  margin: 26px;
+  position: left;
+}
 
+.elise-about-section h2 {
+  margin-bottom: 13px;
 }
 
 .caye-about-section {
+  background: #F7F9FC;
+  margin: 26px;
+  position: right;
+}
 
+.caye-about-section h2 {
+  margin-bottom: 13px;
 }
 
 .about-about-section {
