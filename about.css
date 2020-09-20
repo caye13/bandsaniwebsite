@@ -100,11 +100,23 @@ footer {
   background: #FBFBFB;
   margin: 26px;
   position: right;
-  /* background: #F7F9FC; */
 }
 
 .devon-about-section h2 {
   margin-bottom: 13px;
+}
+
+.middle-section {
+  background: #F7F9FC;
+  margin: 13px;
+}
+
+.elise-about-section {
+
+}
+
+.caye-about-section {
+
 }
 
 .about-about-section {
