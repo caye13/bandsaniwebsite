@@ -31,11 +31,40 @@ div {
 }
 
 .section {
-  padding: 60px 0 40px;
+  padding: 39px 0 26px;
 }
 
 .first-section {
-  background: #E4FFDB;
+  background: #EFFFE9;
+}
+
+.first-section p {
+  margin-top: 26px;
+}
+
+.lauren-about-section {
+  background: #FBFBFB;
+}
+
+.lauren-about-section p {
+  font-size: 16px;
+  background-color: #CBECBE;
+  border-radius: 8px;
+  margin-top: 13px;
+  padding: 30px 55px;
+  margin-bottom: 8px;
+}
+.lauren-about-section ul {
+  font-size: 16px;
+  background-color: #CBECBE;
+  border-radius: 8px;
+  margin-top: 13px;
+  padding: 30px 55px;
+  margin-bottom: 8px;
+}
+
+.devon-about-section {
+  background: #F7F9FC;
 }
 
 @media (min-width: 576px) {
