@@ -19,7 +19,7 @@ header {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  padding: 140px 0 100px;
+  padding: 104px 0 78px;
 
 }
 body {
@@ -29,53 +29,15 @@ body {
 div {
 
 }
-
-.section {
-  padding: 39px 0 26px;
-}
-
-.first-section {
-  background: #EFFFE9;
-}
-
-.first-section p {
-  margin-top: 26px;
-}
-
-.lauren-about-section {
-  background: #FBFBFB;
-}
-
-.lauren-about-section p {
-  font-size: 16px;
-  background-color: #CBECBE;
-  border-radius: 8px;
-  margin-top: 13px;
-  padding: 30px 55px;
-  margin-bottom: 8px;
-}
-.lauren-about-section ul {
-  font-size: 16px;
-  background-color: #CBECBE;
-  border-radius: 8px;
-  margin-top: 13px;
-  padding: 30px 55px;
-  margin-bottom: 8px;
-}
-
-.devon-about-section {
-  background: #F7F9FC;
-}
-
 @media (min-width: 576px) {
   .section {
-  padding: 100px 0;
+  padding: 78px 0;
 }
   h1 {
     font-size: 48px;
   }
   header {
-  padding: 200px 0;
+  padding: 104px 0;
 }
 }
 
@@ -97,4 +59,41 @@ footer {
   height: 22px;
   margin-bottom: 3px;
   width: 22px;
+}
+
+.section {
+  padding: 39px 0 26px;
+}
+
+.first-section {
+  background: #EFFFE9;
+}
+
+.first-section p {
+  margin-top: 26px;
+}
+
+.lauren-about-section {
+  background: #FBFBFB;
+}
+
+.lauren-about-section h2 {
+  margin-bottom: 26px;
+}
+
+.devon-about-section {
+  background: #F7F9FC;
+}
+
+.devon-about-section h2 {
+  margin-bottom: 26px;
+}
+
+.about-about-section {
+  font-size: 16px;
+  background-color: #CBECBE;
+  border-radius: 8px;
+  margin-top: 13px;
+  padding: 30px 55px;
+  margin-bottom: 8px;
 }
