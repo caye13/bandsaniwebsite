@@ -131,6 +131,31 @@ footer {
   margin-bottom: 13px;
 }
 
+.bottom-section {
+  background: #FBFBFB;
+  margin: 13px;
+}
+
+.auden-about-section {
+  background: #FBFBFB;
+  margin: 26px;
+  position: left;
+}
+
+.auden-about-section h2 {
+  margin-bottom: 13px;
+}
+
+.noah-about-section {
+  background: #FBFBFB;
+  margin: 26px;
+  position: right;
+}
+
+.noah-about-section h2 {
+  margin-bottom: 13px;
+}
+
 .about-about-section {
   font-size: 16px;
   background-color: #CBECBE;
