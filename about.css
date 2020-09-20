@@ -78,6 +78,14 @@ footer {
   margin: 13px;
 }
 
+.containers {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #c6c6cc;
+  margin: 0px;
+  padding: 26px;
+}
+
 .lauren-about-section {
   background: #FBFBFB;
   margin: 26px;
@@ -85,7 +93,7 @@ footer {
 }
 
 .lauren-about-section h2 {
-  margin-bottom: 26px;
+  margin-bottom: 13px;
 }
 
 .devon-about-section {
@@ -96,7 +104,7 @@ footer {
 }
 
 .devon-about-section h2 {
-  margin-bottom: 26px;
+  margin-bottom: 13px;
 }
 
 .about-about-section {
