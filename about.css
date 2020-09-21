@@ -164,3 +164,14 @@ footer {
   padding: 8px 8px;
   margin-bottom: 8px;
 }
+
+footer {
+  background-color: #CBECBE;
+  padding: 35px 0;
+}
+
+.footer-logo {
+  height: 21px;
+  margin-bottom: 3px;
+  width: 45px;
+}
