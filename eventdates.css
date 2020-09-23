@@ -1,0 +1,54 @@
+h1 {
+  color: #000000;
+  font-size: 39px;
+}
+h2 {
+  font-size: 26px;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+
+}
+
+
+
+header {
+  background-color: #F0F8FF;
+  /* padding: 260px 0; */
+  background-image: url("../img/bandsani.jpeg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 140px 0 100px;
+
+}
+body {
+  color: #4a4a4a;
+  font-family: 'Oxygen', sans-serif;
+}
+div {
+
+}
+.btn-primary, .btn-primary:visited {
+  background-color: #cde3f8;
+  border-color: #b7d7f4;
+}
+.btn-primary:hover, .btn-primary:active {
+  background-color: #a1caf1;
+}
+
+.section {
+  padding: 60px 0 40px;
+}
+
+footer {
+  background-color: #cde3f8;
+  padding: 35px 0;
+}
+
+.footer-logo {
+  height: 21px;
+  margin-bottom: 3px;
+  width: 45px;
+}
