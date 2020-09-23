@@ -11,8 +11,6 @@ img {
 
 }
 
-
-
 header {
   background-color: #F0F8FF;
   /* padding: 260px 0; */
@@ -30,6 +28,16 @@ body {
 div {
 
 }
+
+.nav-item {
+  margin: 10px 16px;
+}
+.navbar-brand img {
+  height: 46px;
+  margin-right: 8px;
+  width: 46px;
+}
+
 .btn-primary, .btn-primary:visited {
   background-color: #cde3f8;
   border-color: #b7d7f4;
@@ -37,6 +45,40 @@ div {
 .btn-primary:hover, .btn-primary:active {
   background-color: #a1caf1;
 }
+
+@media (min-width: 768px) {
+  .first-section img {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .first-section img {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 576px) {
+  .section {
+  padding: 100px 0;
+}
+  h1 {
+    font-size: 48px;
+  }
+  header {
+  padding: 200px 0;
+}
+}
+
+@media (min-width: 768px) {
+  .streamNow-section img {
+    margin-top: 0;
+  }
+  .third-section img {
+    margin-top: 0;
+  }
+}
+
 
 .section {
   padding: 60px 0 40px;
