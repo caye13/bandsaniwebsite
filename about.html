@@ -7,6 +7,7 @@
     <title>Band Sanitizer | About </title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="about.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
 
   <body>
@@ -20,45 +21,34 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-              <a class="nav-link" href="https://caye13.github.io/bandsaniwebsite/eventdates">Event Dates<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Original Tracks</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://caye13.github.io/bandsaniwebsite/about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Photo Gallery</a>
-              </li>
-              <li class="nav-item">
-                <a class="btn btn-outline-primary my-2 my-sm-0" href="#">Stream BS</a>
-              </li>
-            </ul>
-          </div>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+            <a class="nav-link" data-toggle="collapse" href="https://caye13.github.io/bandsaniwebsite/eventdates">Event Dates<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="collapse" href="#">Original Tracks</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="collapse" href="https://caye13.github.io/bandsaniwebsite/about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="collapse" href="#">Photo Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-outline-primary my-2 my-sm-0" data-toggle="collapse" href="#">Stream BS</a>
+            </li>
+          </ul>
+        </div>
+
       </div>
     </nav>
+
     <script>
-      $(document).ready(function () {
-        $(document).click(function (event) {
-         var clickover = $(event.target);
-         var _opened = $(".navbar-collapse").hasClass("show");
-         if (_opened === true && !clickover.hasClass("navbar-toggler")) {
-             $(".navbar-toggler").click();
-         }
-        });
-      });
-      // $(document).click(function (event) {
-      //   var clickover = $(event.target);
-      //   var $navbar = $(".navbar-collapse");
-      //   var _opened = $navbar.hasClass("in");
-      //   if (_opened === true && !clickover.hasClass("navbar-toggle")) {
-      //       $navbar.collapse('hide');
-      //   }
-      // });
+    $('.navbar-toggler').on('click', function(){
+      $('.navbar-collapse').collapse('hide');
+    });
 
     </script>
     <header>
