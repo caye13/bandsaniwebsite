@@ -26,6 +26,7 @@ body {
   color: #4a4a4a;
   font-family: 'Oxygen', sans-serif;
 }
+
 div {
 
 }
@@ -84,6 +85,10 @@ footer {
   border-color: #c6c6cc;
   margin: 0px;
   padding: 26px;
+}
+
+.container-fluid {
+  padding: 0px;
 }
 
 .lauren-about-section {
