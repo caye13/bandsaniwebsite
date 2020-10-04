@@ -27,6 +27,16 @@ body {
   color: #4a4a4a;
   font-family: 'Oxygen', sans-serif;
 }
+
+.container-fluid {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar-header {
+  padding: 26px;
+}
+
 div {
 
 }
@@ -120,7 +130,7 @@ background-color: white;
   margin-right: 8px;
   width: 46px;
 }
-third-section {
+.third-section {
   background-color: white;
 }
 
