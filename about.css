@@ -51,6 +51,9 @@ div {
   margin-right: 8px;
   width: 46px;
 }
+.navbar-header {
+  padding: 26px;
+}
 footer {
   background-color: white;
   padding: 35px 0;
