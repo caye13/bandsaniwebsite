@@ -37,7 +37,9 @@ div {
   margin-right: 8px;
   width: 46px;
 }
-
+.navbar-header {
+  padding: 26px;
+}
 .btn-primary, .btn-primary:visited {
   background-color: #cde3f8;
   border-color: #b7d7f4;
