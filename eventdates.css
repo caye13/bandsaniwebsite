@@ -47,6 +47,10 @@ div {
 .btn-primary:hover, .btn-primary:active {
   background-color: #a1caf1;
 }
+.container-fluid {
+  margin: 0px;
+  padding: 0px;
+}
 
 @media (min-width: 768px) {
   .first-section img {
