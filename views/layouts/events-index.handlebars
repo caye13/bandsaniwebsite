@@ -1,0 +1,15 @@
+<doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Make Parties</title>
+  </head>
+  <body>
+    <h1>Events</h1>
+    {{#each events}}
+      <h2>{{this.title}}</h2>
+      <img class="img-fluid" src="{{this.imgUrl}}" alt="Card image cap">
+      <p>{{this.description}}</p>
+    {{/each}}
+  </body>
+</html>
