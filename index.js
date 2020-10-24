@@ -10,6 +10,6 @@ app.listen(port, () => {
 const exphbs = require('express-handlebars');
 app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
 app.set('view engine', 'handlebars');
-app.get('/', (req, res) => {
-  res.render('home', { msg: 'neon trees' });
+app.get('/events', (req, res) => {
+  res.render('events-index', { events: events' });
 })
