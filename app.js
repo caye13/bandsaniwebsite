@@ -3,9 +3,7 @@ const app = express()
 
 
 var events = [
-  { title: "I am your first event", desc: "7th Annual SF Rock Project Festive Festival of Bands", imgUrl: "https://scontent-fml2-1.xx.fbcdn.net/v/t1.0-9/78280659_2969609699718440_4181947031197057024_o.jpg?_nc_cat=108&ccb=2&_nc_sid=b386c4&_nc_ohc=g0ueaEzlSPMAX8mwIWC&_nc_ht=scontent-fml2-1.xx&oh=e182f88e7ecdd1e3f00a652f1aa85659&oe=5FB874C4" },
-  { title: "I am your second event", desc: "A great event that is super fun to look at and good", imgUrl: "https://scontent-fml2-1.xx.fbcdn.net/v/t1.0-9/78280659_2969609699718440_4181947031197057024_o.jpg?_nc_cat=108&ccb=2&_nc_sid=b386c4&_nc_ohc=g0ueaEzlSPMAX8mwIWC&_nc_ht=scontent-fml2-1.xx&oh=e182f88e7ecdd1e3f00a652f1aa85659&oe=5FB874C4" },
-  { title: "I am your third event", desc: "A great event that is super fun to look at and good", imgUrl: "https://scontent-fml2-1.xx.fbcdn.net/v/t1.0-9/78280659_2969609699718440_4181947031197057024_o.jpg?_nc_cat=108&ccb=2&_nc_sid=b386c4&_nc_ohc=g0ueaEzlSPMAX8mwIWC&_nc_ht=scontent-fml2-1.xx&oh=e182f88e7ecdd1e3f00a652f1aa85659&oe=5FB874C4" }
+  { title: "7th Annual SF Rock Project Festive Festival of Bands", desc: "Sunday, December 15th at 1355 Market Street Market Square Studios, San Francisco, CA", imgUrl: "https://scontent-fml2-1.xx.fbcdn.net/v/t1.0-9/78280659_2969609699718440_4181947031197057024_o.jpg?_nc_cat=108&ccb=2&_nc_sid=b386c4&_nc_ohc=g0ueaEzlSPMAX8mwIWC&_nc_ht=scontent-fml2-1.xx&oh=e182f88e7ecdd1e3f00a652f1aa85659&oe=5FB874C4" },
 ]
 
 app.get('/', (req, res) => {
