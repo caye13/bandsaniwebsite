@@ -1,20 +1,20 @@
 {
   "development": {
-    "username": "root",
+    "username": "caye",
     "password": null,
     "database": "bandsani-events",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "test": {
-    "username": "root",
+    "username": "caye",
     "password": null,
     "database": "bandsani-events_test",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "production": {
-    "username": "root",
+    "username": "caye",
     "password": null,
     "database": "bandsani-events",
     "host": "127.0.0.1",
