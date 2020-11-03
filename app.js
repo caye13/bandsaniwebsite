@@ -14,6 +14,12 @@ app.get('/', (req, res) => {
   res.render('events-index', { events: events });
 })
 
+// app.get('/', (req, res) => {
+//   models.Event.findAll().then(events => {
+//     res.render('events-index', { events: events });
+//   })
+// })
+
 app.get('/events/new', (req, res) => {
   res.render('events-new', {});
 })
