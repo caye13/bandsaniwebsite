@@ -20,17 +20,17 @@ app.get('/', (req, res) => {
 //   })
 // })
 
-app.get('/events/new', (req, res) => {
-  res.render('events-new', {});
-})
-
-// app.get('/events/:id', (req, res) => {
-//   models.Event.findByPk(req.params.id).then((event) => {
-//     res.render('events-show', { event: event })
-//   }).catch((err) => {
-//     console.log(err.message);
-//   })
+// app.get('/events/new', (req, res) => {
+//   res.render('events-new', {});
 // })
+
+app.get('/events/:id', (req, res) => {
+  models.Event.findByPk(req.params.id).then((event) => {
+    res.render('events-show', { event: event })
+  }).catch((err) => {
+    console.log(err.message);
+  })
+})
 
 app.get('/events/:id', (req, res) => {
   res.send('I\'m an event')
