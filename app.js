@@ -55,3 +55,19 @@ const port = process.env.PORT || 3000;
 app.listen(port, () => {
   console.log('Port 3000!')
 })
+
+
+function returnsPromise() {
+  return new Promise(function (resolve, reject) {
+    reject(Error('I was never going to resolve.'))
+  })
+}
+(async function () {
+
+try {
+  await returnsPromise()
+} catch (error) {
+  console.log('That did not go well.')
+  throw error
+}
+})()
