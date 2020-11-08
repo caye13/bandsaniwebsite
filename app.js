@@ -57,17 +57,17 @@ app.listen(port, () => {
 })
 
 
-function returnsPromise() {
-  return new Promise(function (resolve, reject) {
-    reject(Error('I was never going to resolve.'))
-  })
-}
-(async function () {
-
-try {
-  await returnsPromise()
-} catch (error) {
-  console.log('That did not go well.')
-  throw error
-}
-})()
+// function returnsPromise() {
+//   return new Promise(function (resolve, reject) {
+//     reject(Error('I was never going to resolve.'))
+//   })
+// }
+// (async function () {
+//
+// try {
+//   await returnsPromise()
+// } catch (error) {
+//   console.log('That did not go well.')
+//   throw error
+// }
+// })()
