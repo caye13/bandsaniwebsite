@@ -76,9 +76,9 @@ var events = [
 //     res.render('events-index', { events: events });
 //   })
 // })
-// app.get('/events/new', (req, res) => {
-//   res.render('events-new', {});
-// })
+app.get('/events/new', (req, res) => {
+  res.render('events-new', {});
+})
 
 app.get('/events/:id', (req, res) => {
   models.Event.findByPk(req.params.id).then((event) => {
