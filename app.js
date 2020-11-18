@@ -42,19 +42,7 @@
 //   });
 // })
 //
-// app.get('/', (req, res) => {
-//   models.Event.findAll({ order: [['createdAt', 'DESC']] }).then(events => {
-//     res.render('events-index', { events: events });
-//   })
-// })
-//
-// const exphbs = require('express-handlebars');
-// app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
-// app.set('view engine', 'handlebars');
-// const port = process.env.PORT || 3000;
-// app.listen(port, () => {
-//   console.log('Port 3000!')
-// })
+
 
 const express = require('express')
 const app = express()
