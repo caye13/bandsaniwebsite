@@ -19,7 +19,8 @@ module.exports = (sequelize, DataTypes) => {
     title: DataTypes.STRING,
     desc: DataTypes.TEXT,
     imgUrl: DataTypes.STRING
-  }, {
+  },
+  {
     sequelize,
     modelName: 'Event',
   });
