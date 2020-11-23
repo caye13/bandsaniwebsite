@@ -1,13 +1,3 @@
-// app.post('/events', (req, res) => {
-//   models.Event.create(req.body).then(event => {
-//     res.redirect(`/`);
-//   }).catch((err) => {
-//     console.log(err)
-//   });
-// })
-//
-
-
 const express = require('express')
 const app = express()
 const bodyParser = require('body-parser');
@@ -28,6 +18,7 @@ var events = [
 //     res.render('events-index', { events: events });
 //   })
 // })
+
 app.get('/events/new', (req, res) => {
   res.render('events-new', {});
 })
@@ -44,6 +35,13 @@ app.get('/events/:id', (req, res) => {
   res.send('I\'m an event')
 });
 
+// app.post('/events', (req, res) => {
+//   models.Event.create(req.body).then(event => {
+//     res.redirect(`/`);
+//   }).catch((err) => {
+//     console.log(err)
+//   });
+// })
 app.post('/events', (req, res) => {
   models.Event.create(req.body).then(event => {
     res.redirect(`/`);
