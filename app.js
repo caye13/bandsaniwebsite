@@ -35,13 +35,7 @@ app.get('/events/:id', (req, res) => {
   res.send('I\'m an event')
 });
 
-// app.post('/events', (req, res) => {
-//   models.Event.create(req.body).then(event => {
-//     res.redirect(`/`);
-//   }).catch((err) => {
-//     console.log(err)
-//   });
-// })
+
 app.post('/events', (req, res) => {
   models.Event.create(req.body).then(event => {
     res.redirect(`/`);
