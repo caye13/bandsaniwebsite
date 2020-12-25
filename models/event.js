@@ -1,7 +1,7 @@
 'use strict';
-const {
-  Model
-} = require('sequelize');
+
+const { Model } = require('sequelize');
+
 module.exports = (sequelize, DataTypes) => {
   class Event extends Model {
     static associate(models) {
@@ -11,7 +11,7 @@ module.exports = (sequelize, DataTypes) => {
 
     title: DataTypes.STRING,
     desc: DataTypes.TEXT,
-    imgUrl: DataTypes.STRING
+    // imgUrl: DataTypes.STRING
   },
   {
     sequelize,

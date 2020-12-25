@@ -2,6 +2,8 @@ const express = require('express')
 const app = express()
 const bodyParser = require('body-parser');
 const models = require('./models');
+const Handlebars = require('handlebars')
+const {allowInsecurePrototypeAccess} = require('@handlebars/allow-prototype-access')
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
@@ -51,6 +53,11 @@ app.get('/', (req, res) => {
 })
 
 const exphbs = require('express-handlebars');
+const hbs = exphbs.create({
+  defaultLayout: 'main',
+  extname: 'hbs',
+  handlebars: allowInsecurePrototypeAccess(Handlebars)
+});
 app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
 app.set('view engine', 'handlebars');
 const port = process.env.PORT || 3000;
